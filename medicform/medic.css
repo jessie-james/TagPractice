@@ -1,0 +1,15 @@
+/* Root Font Styling */
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.personal {
+    font-size:12rem;
+    font-style: oblique;
+    font-weight: 400;
+    flex-direction: row;
+}
