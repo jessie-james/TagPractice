@@ -4,26 +4,32 @@
         <title>Medical form</title>
         <link rel="stylesheet" type="text/css" href="./medic.css">
     </head>
+
     <body>
-        <h1>Medical Exam Questionar</h1>
-        <p><em>This form is designed so we can better understand why you are here and how long you will need to stay in our care. The more we know the better equiped we are to help.</em></p>
+        <div class="container">
+       <div id="title"><h1>Medical Exam Questionar</h1>
+          <p><em>This form is designed so we can better understand why you are here and how long you will need to stay in our care. The more we know the better equiped we are to help.</em></p></div>
        <div class="personal">
-        <input placeholder="Last Name" type="text"/>
-        <input placeholder="First Name" type="text"/>
-        <input placeholder="Middle Inital" type="text"/>
-        <inout placeholder="SSN" type="password"/>
-    </div>
-    <div class="questions">
+           <p>Personal Inforamtion</p>
+          <input placeholder="Last Name" type="text"/>
+          <input placeholder="First Name" type="text"/>
+          <input placeholder="Middle Inital" type="text"/>
+          <inout placeholder="SSN" type="password"/>
+      </div>
+      <div class="Questions">
         <ol><li><p><strong>Please check if you suffer from any of the following:</strong></p></li>
-              Dizziness<input type="checkbox"/>
-              Lung Bleeding<input type="checkbox"/>
-              Hallucinations<input type="checkbox"/>
-              Your an interdimensional Being<input type="checkbox"/>
-              Dehydration<input type="checkbox"/>
-              Loss of breath<input type="checkbox"/>
-              <input type="text" placeholder="other"/>
-              <textarea placeholder="If yes please describe"></textarea>
-           
+              <div class="checkboxes">
+                  <div id="a">Dizziness<input type="checkbox"/></div>
+                  <div id="b">Lung Bleeding<input type="checkbox"/></div>
+                  <div id="c"> Hallucinations<input type="checkbox"/></div>
+                  <div id="d">Your an interdimensional Being<input type="checkbox"/></div>
+                  <div id="e">Dehydration<input type="checkbox"/></div>
+                  <div id="af"> Loss of breath<input type="checkbox"/></div>
+              </div>
+              <div class="others">
+                  <input type="text" placeholder="other"/>
+                  <textarea placeholder="If yes please describe"></textarea>
+              </div>
            <li><p><strong> Are you currently taking medicaiton</strong></p></li>
             Yes<input name="meds"type="radio" value="yes"/>
             No<input name="meds"type="radio" value="no"/>
@@ -46,6 +52,6 @@
             No<input name="OA" type="radio" disabled value="no"/>
         </div>
             <button>Submit</button>
-    
+    </div>
     </body>
 </html>

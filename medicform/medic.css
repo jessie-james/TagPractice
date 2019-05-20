@@ -1,15 +1,35 @@
 /* Root Font Styling */
 * {
-    -webkit-font-smoothing: antialiased;
+    
+    
+}
+.container {display:flex;
+    flex-direction:column;
+    width: 100%;
+   -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     font-family: Roboto;
     font-weight: 400;
-}
+    color:darkblue; 
+    font-size:15px;}
+
+#title {text-align: center;
+color:darkblue;
+font-size:30px}
 
 .personal {
-    font-size:12rem;
     font-style: oblique;
     font-weight: 400;
     flex-direction: row;
+    justify-content: space-around;
+}
+.questions {
+    flex-direction: row;
+
+}
+.checkboxes {
+    flex-direction:column;
+    align-content: left; 
+
 }
