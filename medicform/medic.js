@@ -10,7 +10,7 @@ function myFunction() {
 }
 
 function myFor() {
-  for (var i = 1; i <= 7; i++) {
+  for (var i = 0; i <= 7; i++) {
     alert(
       "You have just entered a new dimension welcome to the " + i + " dimension"
     );

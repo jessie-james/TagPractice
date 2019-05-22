@@ -1,35 +1,35 @@
 /* Root Font Styling */
 * {
-    
-    
 }
-.container {display:flex;
-    flex-direction:column;
-    width: 100%;
-   -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    font-family: Roboto;
-    font-weight: 400;
-    color:darkblue; 
-    font-size:15px;}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-family: Roboto;
+  font-weight: 400;
+  color: darkblue;
+  font-size: 15px;
+}
 
-#title {text-align: center;
-color:darkblue;
-font-size:30px}
+#title {
+  text-align: center;
+  color: darkblue;
+  font-size: 30px;
+}
 
 .personal {
-    font-style: oblique;
-    font-weight: 400;
-    flex-direction: row;
-    justify-content: space-around;
+  font-style: oblique;
+  font-weight: 400;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .questions {
-    flex-direction: row;
-
+  flex-direction: row;
 }
 .checkboxes {
-    flex-direction:column;
-    align-content: left; 
-
+  flex-direction: column;
+  align-content: left;
 }
