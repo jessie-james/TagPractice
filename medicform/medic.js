@@ -1,8 +1,8 @@
 function myFunction() {
-  var myName = "Grant";
+  var myName = "Bryan";
   if (myName === "Grant") {
     alert("Submission Failed due to error VERN");
-  } else if (myName == !"Jessie") {
+  } else if (myName !== "Jessie") {
     console.log("that is definatly not Jessie");
   } else {
     console.log("Thats not Grant!");
@@ -17,6 +17,6 @@ function myFor() {
   }
 }
 
-
 //Strings Numbers Booleans Arrays(Why they are useful ? What does “0 - indexed” mean ?)
+var ray = ["a", "b", "c", "d"];
 
